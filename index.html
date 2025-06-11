@@ -1,21 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mo's Portfolio</title>
+    <title>Mo's Portfolio: Fullstack Web & App Developer</title>
 </head>
 
 <body>
-    <h1>Mo's Portfolio</h1>
-  <h2>I'm a Fullstack Webapp/App-Developer</h2>
-  <hr />
-  <h3><a href="./public/movieranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Kontakt</a>
+
+    <header>
+        <!-- Hauptüberschrift der Seite -->
+        <h1>Mo's Portfolio</h1>
+        <!-- Kurze Berufsbezeichnung oder Tagline -->
+        <h2>Ich bin ein angehender Fullstack Web- und App-Entwickler.</h2>
+        
+        <!-- Horizontale Linie zur visuellen Trennung -->
+        <hr />
+
+        <!-- Einfache Navigation mit Zeilenumbrüchen für bessere Lesbarkeit -->
+        <nav>
+            <strong><a href="#about-me">Über mich</a></strong>
+            <br />
+            <strong><a href="#projects">Meine Projekte</a></strong>
+            <br />
+            <strong><a href="#contact">Kontakt</a></strong>
+        </nav>
+        
+        <hr />
+    </header>
+
+    <main>
+        <!-- Abschnitt "Über mich" -->
+        <section id="about-me">
+            <h3>Über mich</h3>
+            <p>
+                Ich bin ein engagierter Student mit einem klaren Ziel: **Geschäftsprozesse durch effiziente und intuitive App-Lösungen zu optimieren**.
+                Mein Fokus liegt auf der Entwicklung von sowohl Web- als auch mobilen Anwendungen.
+            </p>
+            <p>
+                Aktuell schaffe ich meine soliden Grundlagen im **Fullstack Web Development** durch den Kurs von Dr. Yu und vertiefe meine Kenntnisse in modernen Frontend-Technologien mit Max' React-Kurs.
+                Mein nächster Schritt ist die intensive Spezialisierung auf die Entwicklung robuster mobiler Anwendungen mit **React Native und Expo**.
+            </p>
+            <p>
+                Diese Portfolio-Website dient dazu, meinen bisherigen Lernweg und alle meine erstellten Projekte festzuhalten und zu präsentieren. Mein Ziel ist es, meine Fähigkeiten stetig auszubauen, um zukünftig innovative und lösungsorientierte Anwendungen zu schaffen.
+            </p>
+            <hr />
+        </section>
+
+        <!-- Abschnitt "Meine Projekte" -->
+        <section id="projects">
+            <h3>Meine Projekte</h3>
+
+            <h4><a href="./public/movieranking.html">1. Movie Ranking Project</a></h4>
+            <p>
+                Dies ist ein Webprojekt, das mein persönliches Ranking meiner Lieblingsfilme darstellt. Es zeigt meine Fähigkeiten in der grundlegenden HTML-Strukturierung.
+            </p>
+            <img src="./assets/images/movie-ranking.png" height="200" alt="Vorschau des Film-Ranking-Projekts"/>
+            <br />
+            <br /> <!-- Zusätzlicher Zeilenumbruch für besseren Abstand -->
+            <hr />
+
+            <h4><a href="./public/birthday-invite.html">2. Birthday Invite Project</a></h4>
+            <p>
+                Ein einfaches Webprojekt, das die Erstellung einer digitalen Geburtstagseinladung demonstriert. Hier werden grundlegende HTML-Elemente wie Links und Bilder eingesetzt.
+            </p>
+            <img src="./assets/images/birthday-invite.png" height="200" alt="Vorschau des Geburtstagseinladungs-Projekts"/>
+            <br />
+            <br />
+            <hr />
+            
+            <!-- Hier könnten weitere Projekte folgen, strukturiert wie oben -->
+            <!-- Beispiel für zukünftiges Projekt: -->
+            <!--
+            <h4><a href="./public/business-optimizer-app.html">3. Business Process Optimizer (React Native)</a></h4>
+            <p>
+                (Dieses Projekt ist in Planung.) Eine zukünftige mobile App, die darauf abzielt, einen spezifischen Geschäftsprozess durch eine intuitive Benutzeroberfläche und effiziente Datenverarbeitung zu rationalisieren.
+            </p>
+            <img src="https://placehold.co/200x150/cccccc/333333?text=App+Preview" height="150" alt="Platzhalter für zukünftiges App-Projekt"/>
+            <br />
+            <br />
+            <hr />
+            -->
+        </section>
+    </main>
+
+    <footer>
+        <hr />
+        <!-- Kontakt- und About-Links im Footer -->
+        <p id="contact">
+            <strong>Für weitere Informationen:</strong>
+            <br />
+            <a href="./public/contact.html">Kontaktieren Sie mich</a>
+        </p>
+        <p>
+            &copy; 2025 Mo's Portfolio. Alle Rechte vorbehalten.
+        </p>
+    </footer>
+
 </body>
 </html>
